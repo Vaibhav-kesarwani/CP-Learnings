@@ -1,0 +1,35 @@
+# === C++ Compiler Outputs ===
+*.o
+*.obj
+*.out
+*.exe
+*.a
+*.so
+*.dylib      # macOS dynamic libraries
+*.bin
+
+# === Build directories ===
+/build/
+/bin/
+/dist/
+/debug/
+/release/
+/cmake-build-*/
+
+# === CMake files ===
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# === IDE/editor specific ===
+.vscode/
+.idea/
+
+# === macOS system files ===
+.DS_Store
+
+# === Logs / backups / temporary ===
+*.log
+*.bak
+*~
